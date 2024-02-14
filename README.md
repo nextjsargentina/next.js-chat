@@ -15,7 +15,7 @@ To introduce new developers to Next.js and guide them towards adopting best codi
 Contributions are welcome! If you're interested in fixing bugs, adding features, or improving documentation, please join us in enhancing the NextJS-Chat experience for everyone.
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Follow Us
 Stay updated with the latest on NextJS-Chat by following [Next.js Argentina on GitHub](https://github.com/nextjsargentina).
