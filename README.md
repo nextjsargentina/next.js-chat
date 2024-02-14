@@ -1,7 +1,7 @@
 # NextJS-Chat 💬
 
 ## Overview
-NextJS-Chat, developed by [Next.js Argentina](https://github.com/nextjsargentina), is designed to facilitate interaction with the `nextjs-docs` repository. Utilizing a dataset from the app-router version of Next.js 14, it integrates a chat interface from [chatbotui.com](https://wwww.chatbotiu.com). This setup, combined with llama-index, OpenAI, and ChatGPT technologies, allows users to freely interact with a virtual expert on frontend development, React, and best practices in Next.js. Targeting new developers with no previous experience or knowledge, NextJS-Chat aims to educate on Next.js and the principles of clean code and design patterns.
+NextJS-Chat, developed by [Next.js Argentina](https://github.com/nextjsargentina), is designed to facilitate interaction with the `nextjs-docs` repository. Utilizing a dataset from the app-router version of Next.js 14, it integrates a chat interface from [chatbotui.com](https://www.chatbotui.com/). This setup, combined with llama-index, OpenAI, and ChatGPT technologies, allows users to freely interact with a virtual expert on frontend development, React, and best practices in Next.js. Targeting new developers with no previous experience or knowledge, NextJS-Chat aims to educate on Next.js and the principles of clean code and design patterns.
 
 ## Features
 - **Interactive Chatbot**: A platform to consult with a virtual expert on frontend, React, and Next.js.
