@@ -19,11 +19,11 @@ export default function UploadImagePreview({
       />
       <div
         className={cn(
-          "absolute -top-2 -right-2 w-6 h-6 z-10 bg-gray-500 text-white rounded-full hidden group-hover:block",
+          "absolute -top-2 -right-2 w-6 h-6 z-10 bg-neutral-500 text-white rounded-full hidden group-hover:block",
         )}
       >
         <XCircleIcon
-          className="w-6 h-6 bg-gray-500 text-white rounded-full"
+          className="w-6 h-6 bg-neutral-500 text-white rounded-full"
           onClick={onRemove}
         />
       </div>
