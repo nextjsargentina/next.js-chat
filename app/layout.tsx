@@ -8,8 +8,7 @@ import "./markdown.css";
 
 export const metadata: Metadata = {
   title: "Next.js Chat",
-  description:
-    "NextJS-Chat offers beginners a chat-based interface to learn Next.js and best coding practices through an AI expert.",
+  description: "An AI chat-based interface to learn Next.js",
 };
 
 export default function RootLayout({
@@ -21,7 +20,7 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={cn(
-          "min-h-screen bg-background font-sans antialiased dark",
+          "min-h-screen bg-background font-sans antialiased",
           GeistSans.variable,
           GeistMono.variable,
         )}
