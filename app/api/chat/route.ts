@@ -53,7 +53,7 @@ export async function POST(request: NextRequest) {
 
     // Convert message content from Vercel/AI format to LlamaIndex/OpenAI format
     const userMessageContent = convertMessageContent(
-      userMessage.content,
+      userMessage.content as string,
       data?.imageUrl,
     );
 
