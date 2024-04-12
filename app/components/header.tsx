@@ -23,7 +23,7 @@ export default function Header() {
         </a>
       </div>
 
-      <div className="fixed left-0 top-0 flex w-full justify-center items-center gap-6 border-b border-neutral-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-neutral-200 lg:p-4 lg:dark:bg-zinc-800/30">
+      <div className="fixed left-0 top-0 flex w-full justify-center items-center gap-6 border-b bg-gradient-to-b from-neutral-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-neutral-800/30 dark:from-inherit lg:static lg:w-auto lg:rounded-xl lg:border lg:bg-neutral-100 lg:p-4 lg:dark:bg-neutral-800/30 lg:from-inherit">
         <p className="font-mono">
           An AI chat-based interface to learn&nbsp;
           <a
