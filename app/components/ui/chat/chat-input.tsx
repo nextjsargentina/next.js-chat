@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Button } from "../button";
-import FileUploader from "../file-uploader";
+// import FileUploader from "../file-uploader";
 import { Input } from "../input";
 import UploadImagePreview from "../upload-image-preview";
 import { ChatHandler } from "./chat.interface";
@@ -71,13 +71,13 @@ export default function ChatInput(
           value={props.input}
           onChange={props.handleInputChange}
         />
-        <FileUploader
+        {/* <FileUploader
           onFileUpload={handleUploadFile}
           onFileError={props.onFileError}
-        />
+        /> */}
         <Button
           type="submit"
-          className="transition-colors text-black dark:border-neutral-800 bg-neutral-100 hover:bg-neutral-100/80 dark:bg-neutral-800 dark:text-white dark:hover:bg-neutral-800/80"
+          className="transition-colors border text-black dark:border-neutral-800 bg-neutral-100 hover:bg-neutral-100/80 dark:bg-neutral-800 dark:text-white dark:hover:bg-neutral-800/80"
           disabled={props.isLoading}
         >
           Send message
