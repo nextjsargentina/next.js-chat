@@ -40,9 +40,15 @@ export default function ChatMessages(
         className="flex h-[50vh] flex-col gap-5 divide-y overflow-y-auto pb-4"
         ref={scrollableChatContainerRef}
       >
-        {props.messages.map((m) => (
-          <ChatMessage key={m.id} {...m} />
-        ))}
+        {messageLength === 0 && !isPending ? (
+          <div className="flex justify-center items-center h-screen">
+            <p className="border px-4 py-2 rounded-lg font-sans text-sm dark:text-neutral-400 text-neutral-500">
+              No messages in the chat yet.
+            </p>
+          </div>
+        ) : (
+          props.messages.map((m) => <ChatMessage key={m.id} {...m} />)
+        )}
         {isPending && (
           <div className="flex justify-center items-center pt-10">
             <Loader2 className="h-4 w-4 animate-spin" />
