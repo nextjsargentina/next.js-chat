@@ -75,7 +75,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Follow Us
 
 Stay updated with the latest on NextJS-Chat by following [Next.js Argentina on GitHub](https://github.com/nextjsargentina).
-
-```
-
-```
